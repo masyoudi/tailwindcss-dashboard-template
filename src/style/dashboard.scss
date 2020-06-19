@@ -158,6 +158,10 @@ body {
   background-color: var(--bg-secondary) !important;
 }
 
+.bg-gradient-primary {
+  background: linear-gradient(45deg, #319795, #4fd1c5);
+}
+
 .color-primary {
   color: var(--color-primary) !important;
 }
