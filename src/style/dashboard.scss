@@ -7,9 +7,8 @@
   --color-sidebar-link-active: #fff;
 }
 
-
 [data-theme='dark'] {
-  --bg-primary: #2A245C;
+  --bg-primary: #2a245c;
   --bg-secondary: #13113d;
   --color-primary: #e6fffa;
   --color-sidebar-link-active: #fff;
@@ -91,7 +90,7 @@ body {
         }
 
         ~ .item-link-collapse {
-          max-height: 100vh;
+          max-height: 100%;
           padding: 0 1.14868em 1em;
         }
       }
@@ -220,7 +219,7 @@ body {
       }
 
       transform: translateX(0);
-  
+
       ~ .navbar > .navbar-inner,
       ~ .main,
       ~ .footer {
@@ -229,5 +228,4 @@ body {
       }
     }
   }
-
 }
